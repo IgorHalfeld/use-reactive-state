@@ -24,7 +24,7 @@ import { useReactiveState } from '@halfeld/use-reactive-state';
 const App = () => {
   let count = useReactiveState({ value: 0 });
 
-  function updateCount(value: number) {
+  function updateCount(value) {
     count.value = value;
   }
 
@@ -32,8 +32,8 @@ const App = () => {
     <div>
       <h1>{count.value}</h1>
       <div>
-        <button onClick={(): void => updateCount(count.value - 1)}>Less</button>
-        <button onClick={(): void => updateCount(count.value + 1)}>More</button>
+        <button onClick={() => updateCount(count.value - 1)}>Less</button>
+        <button onClick={() => updateCount(count.value + 1)}>More</button>
       </div>
     </div>
   );
