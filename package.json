@@ -1,0 +1,26 @@
+{
+  "name": "@halfeld/use-reactive-state",
+  "version": "0.0.1",
+  "description": "Data binding incorporation in React world",
+  "main": "useReactiveState.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorHalfeld/use-reactive-state.git"
+  },
+  "keywords": [
+    "reactive",
+    "react",
+    "hooks",
+    "data",
+    "binding"
+  ],
+  "author": "Igor Halfeld <hello@igorluiz.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IgorHalfeld/use-reactive-state/issues"
+  },
+  "homepage": "https://github.com/IgorHalfeld/use-reactive-state#readme"
+}
