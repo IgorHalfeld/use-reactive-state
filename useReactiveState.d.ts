@@ -1,0 +1,1 @@
+export const useReactiveState = <T>(data: T) => T

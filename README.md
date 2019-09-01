@@ -1,10 +1,13 @@
 <p align="center">
   <h2 align="center">
-    🔥useReactiveState()
+    useReactiveState(🔥)
   </h2>
   <p align="center">Data binding incorporation in React world.</p>
 </p>
 
+<p align="center">
+  <img src="demo.gif" alt="demo"/>
+</p>
 
 ### How to install
 

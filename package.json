@@ -1,11 +1,15 @@
 {
   "name": "@halfeld/use-reactive-state",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Data binding incorporation in React world",
   "main": "useReactiveState.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "useReactiveState.js",
+    "useReactiveState.d.ts"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IgorHalfeld/use-reactive-state.git"
